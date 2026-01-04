@@ -106,10 +106,9 @@ You will **learn by doing** through a **fictional workplace scenario**, acting a
 
 * You will complete tasks that simulate actual penetration testing and web security scenarios.
 * Each task builds on the previous one, creating a continuous storyline.
-* Workshops allow you to ask questions, share findings, and collaborate.
-* The course can be completed remotely and includes both lectures and self-paced assignments.
-* The course will include workshops on the Kokkola campus. Participation is voluntary, but recommended.
-* There is a security lab on campus where you can do supervised course tasks.
+* The course cannot be completed entirely remotely.
+* The course includes labs on the Kokkola campus. Participation is mandatory (at least one visit)
+* Lab is a security lab on campus where you do supervised course tasks.
 
 ### 🧰 Learning Structure
 
@@ -119,7 +118,7 @@ You will **learn by doing** through a **fictional workplace scenario**, acting a
   * Cisco Networking Academy
   * PortSwigger (Burp Suite labs)
   * GitHub repository and logbook
-  * Kali Linux testing environment (e.g. Zap proxy)
+  * Parrot Security testing environment (e.g. Zap proxy)
 * **Focus areas:**
 
   * Web vulnerabilities (SQL injection, authentication, access control)
@@ -131,7 +130,7 @@ You will **learn by doing** through a **fictional workplace scenario**, acting a
 
 * Foundations — Cisco & PortSwigger tasks
 * Booking System Penetration Testing Project (Phases 1–4)
-* Final reflection and exam
+* Final reflection
 
 ### 🧑‍💻 Deliverables
 
@@ -139,7 +138,7 @@ You will **learn by doing** through a **fictional workplace scenario**, acting a
 * Cisco Introduction to Cybersecurity certificate
 * PortSwigger lab completions
 * Multi-phase booking system test reports
-* Final reflection assignment and exam
+* Final reflection assignment
 
 ### 🧠 Skills You’ll Develop
 
