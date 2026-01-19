@@ -15,7 +15,7 @@ services:
     container_name: cybersec-web-phase1-part1
     restart: always
     ports:
-      - "8000:8000"
+      - "8001:8000"
     depends_on:
       - database
     environment:
