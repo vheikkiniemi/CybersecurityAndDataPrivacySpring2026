@@ -42,20 +42,20 @@ You act as a **white-hat hacker**, using a **gray-box testing** approach. Your t
 
 **1. Authentication and Authorization**
 
-* Verify that user register processes are **secure**.
-* Verify that user login processes are **secure**.
-* Check that **roles and permissions** are properly defined and cannot be bypassed.
+* Verify that user register processes are **secure**. → **NOTE! Focus on this**
+* Verify that user login processes are **secure**. → **NOTE! Not relevant at this first part**
+* Check that **roles and permissions** are properly defined and cannot be bypassed. → **NOTE! Pay attention if you want**
 
 ---
 
 **2. Input Validation**
 
-* Ensure that **all user inputs** are validated and sanitized.
-* Look for possible **injection attacks** (e.g., SQLi, XSS).
+* Ensure that **all user inputs** are validated and sanitized. → **NOTE! Focus on this**
+* Look for possible **injection attacks** (e.g., SQLi, XSS). → **NOTE! Focus on this**
 
 ---
 
-**3. Session Management**
+**3. Session Management**  → **NOTE! Not relevant at this first part**
 
 * Confirm that **sessions expire properly** and cannot be hijacked.
 * Check that **session tokens** are complex and unpredictable.
@@ -64,19 +64,19 @@ You act as a **white-hat hacker**, using a **gray-box testing** approach. Your t
 
 **4. Data Encryption**
 
-* Verify that sensitive data is **encrypted** both **in transit** and **at rest**.
-* Ensure encryption algorithms are **up to date and secure**.
+* Verify that sensitive data is **encrypted** both **in transit** and **at rest**. → **NOTE! Focus on this**
+* Ensure encryption algorithms are **up to date and secure**. → **NOTE! Focus on this**
 
 ---
 
-**5. Error Handling and Logging**
+**5. Error Handling and Logging** → **NOTE! Pay attention if you want**
 
 * Test that **error messages** do not expose sensitive information.
 * Ensure **log files** contain enough information for incident tracing but avoid storing personal data.
 
 ---
 
-**6. Third-Party Components**
+**6. Third-Party Components**  → **NOTE! Pay attention if you want**
 
 * Review **external libraries and dependencies** for vulnerabilities.
 * Check that third-party tools are **current and trustworthy**.
@@ -85,8 +85,8 @@ You act as a **white-hat hacker**, using a **gray-box testing** approach. Your t
 
 **7. Usability and Performance**
 
-* Test that the system performs reliably under **load**.
-* Evaluate **user experience** and whether security controls overly hinder usability.
+* Test that the system performs reliably under **load**. → **NOTE! Not relevant at this first part**
+* Evaluate **user experience** and whether security controls overly hinder usability. → **NOTE! Pay attention if you want**
 
 ---
 
@@ -185,7 +185,7 @@ Use isolated or purpose-built labs — do **not** test random internet sites.
 * **Your own environment** (Docker on your machine or in Kali)
 * **Centria CyberLab** (institutional lab; follow lab rules)
 
-In **both options**, you will use [this compose file](https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacyAutumn2025/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml) for Phase 1, Part 1
+In **both options**, you will use [this compose file](https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacySpring2026/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml) for Phase 1, Part 1
 
 > ⚠️ Do **not** expose lab services to the public Internet. Keep everything local.
 
@@ -228,7 +228,7 @@ cd ~/cyber-lab/phase1-part1
 
 ```bash
 wget -O docker-compose.yml \
-https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacyAutumn2025/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml
+https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacySpring2026/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml
 ```
 
 **7. (Optional) Check what will run**  
@@ -321,7 +321,7 @@ mkdir $HOME\cyber-lab\phase1-part1
 cd $HOME\cyber-lab\phase1-part1
 
 # download compose file (PowerShell)
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacyAutumn2025/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml" -OutFile docker-compose.yml
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacySpring2026/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml" -OutFile docker-compose.yml
 ```
 
 **5. Start the lab stack (run as regular user)**
@@ -380,7 +380,7 @@ mkdir -p ~/cyber-lab/phase1-part1
 cd ~/cyber-lab/phase1-part1
 
 # download compose file
-curl -fsSLo docker-compose.yml "https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacyAutumn2025/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml"
+curl -fsSLo docker-compose.yml "https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacySpring2026/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml"
 ```
 
 **4. Start the lab stack**
@@ -447,7 +447,7 @@ When you start the stack using
 docker compose up -d
 ```
 
-from [this compose file](https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacyAutumn2025/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml), you deploy a **small web application** and a **PostgreSQL database** inside isolated Docker containers.
+from [this compose file](https://raw.githubusercontent.com/vheikkiniemi/CybersecurityAndDataPrivacySpring2026/refs/heads/main/BookingSystem/Phase1/Part1/docker-compose.yml), you deploy a **small web application** and a **PostgreSQL database** inside isolated Docker containers.
 
 ---
 
