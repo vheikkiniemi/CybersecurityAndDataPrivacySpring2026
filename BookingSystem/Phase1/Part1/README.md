@@ -90,7 +90,7 @@ You act as a **white-hat hacker**, using a **gray-box testing** approach. Your t
 
 ---
 
-**8. GDPR Compliance**
+**8. GDPR Compliance** → **NOTE! Not relevant at this first part**
 
 | Aspect                                | What to Test                                                    |
 | ------------------------------------- | --------------------------------------------------------------- |
@@ -103,7 +103,7 @@ You act as a **white-hat hacker**, using a **gray-box testing** approach. Your t
 
 ---
 
-**9. Privacy by Design (PbD) Principles**
+**9. Privacy by Design (PbD) Principles** → **NOTE! Not relevant at this first part**
 
 1. **Proactive, not reactive:** anticipate privacy risks before they occur.
 2. **Privacy as the default setting:** data protection enabled by default.
