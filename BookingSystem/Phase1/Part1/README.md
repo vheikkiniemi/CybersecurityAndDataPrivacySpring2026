@@ -246,7 +246,7 @@ sudo docker compose up -d
 sudo docker compose ps
 ```
 
-Wait until all services show **“Up”**. Then open the app URLs shown in the compose file (commonly `http://localhost:8000`).
+Wait until all services show **“Up”**. Then open the app URLs shown in the compose file (commonly `http://localhost:8001`).
 
 **9. Test with penetration test tools (e.g. ZAP)**
 
@@ -331,7 +331,7 @@ docker compose up -d
 docker compose ps
 ```
 
-Wait until services show `Up`. Open any mapped URLs in your browser (usually `http://localhost:8000`). Check the compose file for exact ports.
+Wait until services show `Up`. Open any mapped URLs in your browser (usually `http://localhost:8001`). Check the compose file for exact ports.
 
 **6. Test with penetration test tools (e.g. ZAP)**
 
@@ -414,7 +414,7 @@ docker compose down -v
 
 * **Docker not starting** → restart Docker Desktop; check `Docker Desktop > Troubleshoot` logs.
 * **Container keeps restarting** → `docker logs <service>` to see the error.
-* **Service unreachable** → `docker compose ps` and `docker inspect <container>` for port mapping; try `curl http://localhost:8000` locally.
+* **Service unreachable** → `docker compose ps` and `docker inspect <container>` for port mapping; try `curl http://localhost:8001` locally.
 * **Port already in use** → `lsof -i :<port>` to find conflicts or change port mapping in an override.
 * **Permission / file mount errors** → check Docker Desktop file-sharing settings.
 
@@ -541,7 +541,7 @@ This clears the table but leaves the structure intact.
 
 | Component         | Access Method                                                           | Description                                                  |
 | ----------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------ |
-| 🖥️ Web App       | `http://localhost:8000`                                                 | Booking system interface (register, login, manage resources) |
+| 🖥️ Web App       | `http://localhost:8001`                                                 | Booking system interface (register, login, manage resources) |
 | 🐘 Database Shell | `docker exec -it cybersec-db-phase1-part1 psql -U postgres -d postgres` | Open PostgreSQL interpreter inside the DB container          |
 | 📋 List Tables    | `\dt`                                                                   | Shows all tables in the current database                     |
 | 👤 Show Users     | `SELECT * FROM booking_users;`                                          | Displays user accounts currently stored                      |
