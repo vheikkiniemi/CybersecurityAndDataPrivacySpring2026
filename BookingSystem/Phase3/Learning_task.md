@@ -72,7 +72,7 @@ You must create **one clear markdown document** where all testing results are or
 
 > [!IMPORTANT]
 > Before you start filling in the report, you must find out which pages (resources) are available. Don’t say, for example, that the guest 'cannot access any /admin/* pages', because there isn’t even an /admin page.
-> First create the report template and start filling it in only during [the testing phaset](#-testing-phase-1---browser-testing)
+> First create the report template and start filling it in only during [the testing phase](#-testing-phase-1---browser-testing)
 
 ---
 
