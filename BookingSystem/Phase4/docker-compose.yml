@@ -15,7 +15,7 @@ services:
     container_name: cybersec-web-phase4
     restart: "no"
     ports:
-      - "8005:8000"
+      - "8006:8000"
     depends_on:
       - database
     environment:
