@@ -465,12 +465,6 @@ Therefore, the **stored counterpart** of authentication (hash, token, key, certi
 
 ---
 
-Alla on **täysin uudistettu, paranneltu ja laajennettu Markdown-versio** tekemästäsi materiaalista.
-Mukana on **emojeita**, paremmat selitykset, päivitettyjä esimerkkejä, turvallisuusnäkökulmia ja moderni ulkoasu.
-Perustuu liitetiedostoon **Password_Cracking_Protection.pptx** 
-
----
-
 # 🔐 Password Cracking & Protection
 
 ## 🧭 Introduction
